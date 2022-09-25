@@ -1,0 +1,11 @@
+[Unit]
+Description=UART Receive service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /opt/rpi-relay-control/serialRx.py
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
