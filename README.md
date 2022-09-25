@@ -9,10 +9,10 @@ Hardware Required
 
 ## Relay Control Board 
 Below ports needs to be configured as Output (depends on the Board connected to Relay)
-Port 3  - Relay 1
-Port 7  - Relay 2
-Port 22 - Relay 3
-Port 25 - Relay 4
+a. Port 7  - Relay 1
+b. Port 3  - Relay 2
+c. Port 22 - Relay 3
+d. Port 25 - Relay 4
 
 ## Using Python scripts for sending control commands
 serialTx.py is an example of sending the Tx commands over UART.  Command processing is handled in serialRx.py accordingly.
